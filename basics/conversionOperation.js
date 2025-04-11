@@ -33,8 +33,52 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 78
 
 let string = String(someNumber)
-console.log(someNumber);
-console.log(typeof someNumber);
-console.log(typeof string);
+//console.log(someNumber);
+//console.log(typeof someNumber);
+//console.log(typeof string);
+
+
+// ***************** operations ******************
+let value = 8
+let negValue = -value
+//console.log(negValue);
+
+//console.log(2 ** 5); // 2 to the power of 5
+ 
+// combine two string 
+let str1 = "hello"
+let str2 = " Nandini"
+
+let str3 = str1 + str2
+//console.log(str3);
+
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "3");
+
+// agar string first hai to sabhi ko string me treat kiya jayega or agar string last me hai toh pehle jo conversion hai wo hojayega
+
+
+// console.log(+true);
+// console.log(+"");
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2+3
+console.log(num2); // not best practice
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter);
+// post increament and pre increament giving same value
+
+
+
+
+
+
+
 
 
