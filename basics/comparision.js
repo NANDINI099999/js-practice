@@ -20,6 +20,8 @@ console.log(undefined < 0);
 
 //strict check
 console.log("2" === 2);
+// == compares value only (does type conversion)
+// === compares value and type (strict check)
 
 
 // comparision and equality check both are different 
