@@ -16,6 +16,8 @@ let isLoggedIn = true //boolean
 
 // number => 2^53
 //bigint - for larger values like in stock markets
+//string => ''
+//boolean => true/false
 //null => standalone value
 // undefined => value not assigned
 // symbol => unique 
