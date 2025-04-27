@@ -37,6 +37,11 @@ let newFruitsB = fruits.splice(1,3)
 // console.log(newFruitsB); //banana, mango, orange // include last array
 // console.log(fruits); //apple (aplice manipulate the real array)
 
+let filt = [1,2,3,4]
+let newFilt = filt.filter(num => num > 2) //filtering out the element which are greater than 2
+console.log(newFilt);
+
+
 
 //////array part-2
 
@@ -73,15 +78,15 @@ const new_array = another_array.flat(Infinity)
 // console.log(new_array);
 
 
-console.log(Array.isArray("Nandini")) // false (because string is not an array)
-console.log(Array.from("Nandini")) // .from convert string to array
-console.log(Array.from({"name":"Nandini"})) // [] because ye decide nhi kr paa rha hai ki kise array me convert karna hai key ko ya value ko
+//console.log(Array.isArray("Nandini")) // false (because string is not an array)
+//console.log(Array.from("Nandini")) // .from convert string to array
+//console.log(Array.from({"name":"Nandini"})) // [] because ye decide nhi kr paa rha hai ki kise array me convert karna hai key ko ya value ko
 
 let score1 = 100
 let score2 = 200
 let score3 = 300
 
-console.log(Array.of(score1, score2, score3)) ;
+//console.log(Array.of(score1, score2, score3)) ;
 
 
 // Array.of() creates a new array instance with a variable number of arguments, regardless of the number or type of arguments.
