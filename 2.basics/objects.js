@@ -48,7 +48,7 @@ jsUser.greet = function() {
 
 
 jsUser.greet2 = function() {
-    console.log(`Hello js user, ${this.name}`) // jbbhi same object ko reference karna ho to this keyword ka use karte hai
+    console.log(`Hello js user, ${this.name}`) // jbbhi same object ko reference karna ho toh this keyword ka use karte hai
 }
 
 console.log(jsUser.greet());
